@@ -1,0 +1,13 @@
+# data files are too big for GitHub (charts.csv is 3.5 GB, the subset is 150 MB)
+data/
+*.zip
+
+# python environment, rebuilt on each computer with uv
+.venv/
+__pycache__/
+
+# mac
+.DS_Store
+
+# your own database connection, never share it
+.env
